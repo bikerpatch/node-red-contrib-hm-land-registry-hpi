@@ -1,6 +1,6 @@
 {
 	"name": "@bikerpatch/node-red-contrib-hm-land-registry-hpi",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Node-RED nodes to retrieve HM Land Regsitry UK House Price Index data via the Open Data service",
 	"keywords": [
 		"land registry",
@@ -9,7 +9,8 @@
 		"land registry",
 		"landregistry",
 		"UK House Price Index",
-		"hpi"
+		"hpi",
+		"node-red"
 	  ],
 	"repository": {
 		"type": "git",
