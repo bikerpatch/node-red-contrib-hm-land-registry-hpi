@@ -1,0 +1,37 @@
+{
+	"name": "@bikerpatch/node-red-contrib-hm-land-registry-hpi",
+	"version": "1.0.0",
+	"description": "Node-RED nodes to retrieve HM Land Regsitry UK House Price Index data via the Open Data service",
+	"keywords": [
+		"land registry",
+		"ukhpi",
+		"gov.uk",
+		"land registry",
+		"landregistry",
+		"UK House Price Index",
+		"hpi"
+	  ],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/bikerpatch/node-red-contrib-hm-land-registry-hpi.git"
+	},
+	"bugs": {
+		"url": "https://github.com/bikerpatch/node-red-contrib-hm-land-registry-hpi/issues"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"node-red": {
+		"version": ">=2.2.2",
+		"nodes": {
+			"hmlandregistry-ukhpi": "nodes/hmlandregistry-ukhpi.js"
+		}
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"eslint": "^8.17.0"
+	},
+	"dependencies": {
+		"axios": "^0.27.2"
+	}
+}
