@@ -21,7 +21,7 @@
 	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"lint": "eslint src/**/*.js"
+		"lint": "eslint nodes/**/*.js lib/**/*.js"
 	},
 	"node-red": {
 		"version": ">=2.2.2",
