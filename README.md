@@ -5,7 +5,7 @@
 ![Snyk Vulnerabilities for npm package](https://img.shields.io/snyk/vulnerabilities/npm/@bikerpatch/node-red-contrib-hm-land-registry-hpi)
 ![npm](https://img.shields.io/npm/v/@bikerpatch/node-red-contrib-hm-land-registry-hpi)
 
-This module provides a node in Node-RED to quickly retrieve HM Land Regsitry UK House Price Index data via the Open Data service
+This module provides a node in Node-RED to quickly retrieve HM Land Registry UK House Price Index data via the Open Data service
 
 The node requires node.js version 12 or more recent, and has been tested with version 18.4.0
 

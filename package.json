@@ -1,7 +1,7 @@
 {
 	"name": "@bikerpatch/node-red-contrib-hm-land-registry-hpi",
 	"version": "1.0.1",
-	"description": "Node-RED nodes to retrieve HM Land Regsitry UK House Price Index data via the Open Data service",
+	"description": "Node-RED nodes to retrieve HM Land Registry UK House Price Index data via the Open Data service",
 	"keywords": [
 		"land registry",
 		"ukhpi",
@@ -20,7 +20,8 @@
 		"url": "https://github.com/bikerpatch/node-red-contrib-hm-land-registry-hpi/issues"
 	},
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"lint": "eslint src/**/*.js"
 	},
 	"node-red": {
 		"version": ">=2.2.2",
